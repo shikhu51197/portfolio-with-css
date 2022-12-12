@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.00d03d85.css",
-    "main.js": "/static/js/main.c2c32ce2.js",
+    "main.css": "/static/css/main.fe1a9bc1.css",
+    "main.js": "/static/js/main.48565639.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Screenshot (1511).png": "/static/media/Screenshot (1511).f5ca02c367cc4a8f94a8.png",
     "static/media/full-stack-developer.gif": "/static/media/full-stack-developer.3d34a570ec7d3100bed7.gif",
@@ -9,17 +9,16 @@
     "static/media/Screenshot (1510).png": "/static/media/Screenshot (1510).dc48894952c4a4eb59d3.png",
     "static/media/Screenshot (1507).png": "/static/media/Screenshot (1507).4b10842e2ed9235ab7f1.png",
     "static/media/Screenshot (1503).png": "/static/media/Screenshot (1503).1017287178a785625fb0.png",
-    "static/media/Shikha_Gupta_Resume.pdf": "/static/media/Shikha_Gupta_Resume.acc76377025dceb1a56d.pdf",
     "static/media/Screenshot (1502).png": "/static/media/Screenshot (1502).988571f3c748f894deb1.png",
     "static/media/Screenshot (1506).png": "/static/media/Screenshot (1506).5b320bc5f6b7056a3bc9.png",
     "static/media/dummy.png": "/static/media/dummy.a105911a4f54835e7f73.png",
     "index.html": "/index.html",
-    "main.00d03d85.css.map": "/static/css/main.00d03d85.css.map",
-    "main.c2c32ce2.js.map": "/static/js/main.c2c32ce2.js.map",
+    "main.fe1a9bc1.css.map": "/static/css/main.fe1a9bc1.css.map",
+    "main.48565639.js.map": "/static/js/main.48565639.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00d03d85.css",
-    "static/js/main.c2c32ce2.js"
+    "static/css/main.fe1a9bc1.css",
+    "static/js/main.48565639.js"
   ]
 }
