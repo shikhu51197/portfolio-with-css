@@ -16,6 +16,8 @@ const Contacts = () => {
       emailjs.sendForm('service_gntwx5i', 'template_bbfptxn', form.current, '3EPk1TMU9WKBpn1zM')
         .then((result) => {
             console.log(result.text);
+            alert("Message sent Successfully")
+            window.location.reload()
         }, (error) => {
             console.log(error.text);
         });

@@ -64,14 +64,14 @@ padding: 1rem;
 }  
 }
 
-@media screen and (max-width:600px)  {
+@media screen and (max-width:480px)  {
  
     .skills_container{
       gap :1rem
     }
 
     .skills_container >div {
-        width:100%;
+        width:80%;
         padding: 2rem 1em;
     }
 

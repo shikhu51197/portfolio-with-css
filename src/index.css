@@ -43,7 +43,8 @@
       font-family: 'Montserrat', sans-serif;
       line-height: 1.6;
       font-size:0.9rem;
-      background:rgb(215, 215, 220);
+      background:white;
+
      
      
   }
@@ -57,7 +58,7 @@
   /* section style */
   section{
       padding: 4rem  0;
-      background:rgb(215, 215, 220);
+      background:white;
       transition: var(--transition);
   
   }
@@ -187,14 +188,15 @@
   
   
   
-  @media screen and (max-width:600px){
+  @media screen and (max-width:480px){
       
       h1{
           font-size: 1rem;
       }
   
       section >p{
-          width:var(--container-width-md)
+          width:var(--container-width-md);
+        
       }
   
       h2{
@@ -210,6 +212,14 @@
       .btn{
           padding:0.6rem 1.5rem;
       }
+      
+      body {
+        margin-left: 50px;
+      }
   
+      footer {
+        margin-left: 0px;
+      }
   }
+
 

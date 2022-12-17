@@ -8,6 +8,7 @@ import Contacts from "./Section/contact/Contact";
 import FloatingNav from "./Section/floating.nav/FloatingNav";
 import Skills from "./Section/Skills/Skills";
 import Tech_stack from "./Section/Tech_Stack/Tech_stack";
+import Calender from "./Components/Calender";
 
 const App = () => {
   return (
@@ -16,8 +17,9 @@ const App = () => {
       <Header />
       <About />
       <Skills />
-      <Tech_stack/>
+      <Tech_stack />
       <Project />
+      <Calender />
       <Contacts />
       <Footer />
       <FloatingNav />

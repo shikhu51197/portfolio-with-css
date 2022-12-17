@@ -1,5 +1,5 @@
 .iconsdisigne:hover{
-    /* background: rgb(139, 63, 210,0.5); */
+   
        background: rgb(254, 252, 252); 
       border-radius: 50px;
       height: 150px;
@@ -10,10 +10,8 @@
   }
   
   .backgroundbody{
-    height: 1200px;
-    background:rgb(215, 215, 220);
-  
-  
+    height: 1000px;
+    background:white;
   }
   
    .techcss{
@@ -34,7 +32,7 @@
     justify-content: center;
     margin-left: 100px;
      box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-     /* background: rgb(254, 252, 252);  */
+
      background: rgb(139, 63, 210,0.5);
      color: white;
       border-radius: 50px;
@@ -48,16 +46,45 @@
    
   }
 
-  @media screen and (max-width:600px) {
-    .iconsbrand{
-        grid-template-columns:repeat(2,1fr);
-        gap: 1rem;
-    }
-
-    .backgroundbody{
-        height: 2200px;
-        /* background:rgb(215, 215, 220); */
-      
-      
-      }
+@media screen and (max-width:1024px) {
+  .iconsbrand{
+      grid-template-columns:repeat(3,1fr);
+      gap: 1rem;
+      width: 90%;
+     margin-right: 0px;
+  }
+  .backgroundbody{
+    height: 1300px;
+   
+  }
+ 
 }
+
+@media screen and (max-width:480px) {
+  .iconsbrand{
+      grid-template-columns: repeat(2,1fr);
+      gap: 1rem;
+      width: 50%;
+     
+  }
+  h3{
+    font-size: 20px;
+    text-align: center;
+  }
+  .backgroundbody{
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .iconsdisigne{
+    width: 80%;
+  }
+  h6{
+    font-size: 10px;
+  }
+  h5{
+    font-size: 15px;
+  }
+}
+
+

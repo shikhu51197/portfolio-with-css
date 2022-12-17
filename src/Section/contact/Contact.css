@@ -85,9 +85,6 @@
     border-color:var(--color-primary-varient);
 }
 
-
-
-
 form {
     display: flex;
     flex-direction: column;
@@ -107,15 +104,10 @@ input , textarea {
     color: var(--color-black);
     
 }
-
-
 #contact h5 {
     text-align: center;
     margin-bottom: 20px;
 }
-
-
-
 #contact{
     height: 100%;
 }

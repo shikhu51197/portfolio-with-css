@@ -2,13 +2,13 @@ import React from "react";
 import HeaderImage from "../../assest/dummy.png";
 import data from "./data";
 import "./Header.css";
-// import background from '../../assest/background.jpg'
+
 
 const Header = () => {
   return (
     <header id="header">
       <div className="container header_container">
-        {/* <img src ={background} alt="bg" width="100%"  /> */}
+       
         <div className="header_profile">
           <img src={HeaderImage} alt="Header Image" width="100%" />
         </div>
@@ -20,7 +20,7 @@ const Header = () => {
               <span>Full Stack Developer</span>
             </li>
             <li>
-              <span>MERN Stack Developer</span>
+              <span>MERN Developer</span>
             </li>
             <li>
               <span>Frontend Developer</span>
@@ -30,7 +30,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <p>
+        <p className="ptag">
           Analytical and detail-Oriented aspiring Full Stack Web Developer💻.
           Capable of writing production-ready code using React JS, Redux, HTML
           and CSS on the front end and NodeJS, ExpressJS, and MongoDB on the
@@ -42,7 +42,7 @@ const Header = () => {
           <a href="#contact" className="btn primary">
             Let's Connect
           </a>
-          <a href="#portfolio" className="btn light">
+          <a href="#Project" className="btn light">
             MY Work
           </a>
         </div>
